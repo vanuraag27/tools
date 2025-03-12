@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Compress your images online with our fully   responsive image compression tool. Optimize images for web use with adjustable compression levels.">
+    <meta name="description" content="Compress your images online with our fully responsive image compression tool. Optimize images for web use with adjustable compression levels.">
     <meta name="keywords" content="image compression, optimize images, image optimizer, online image compressor">
     <meta name="author" content="Anurag">
     <title>Online Tools - Image & PDF Utilities</title>
@@ -41,17 +41,16 @@
             max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
+            justify-content: center;
         }
         .tool-card {
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            width: 280px;
             text-align: center;
             transition: transform 0.3s;
         }
@@ -92,22 +91,15 @@
             padding: 15px;
             margin-top: 20px;
         }
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
     </style>
-<!-- Google AdSense -->
+    <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-2598903974952281" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <header>
         Online Tools - Image & PDF Utilities
     </header>
-<!-- AdSense Top Ad -->
+    <!-- AdSense Top Ad -->
     <div class="adsense-ad" style="text-align: center; margin: 20px 0;">
         <ins class="adsbygoogle"
              style="display:block"
@@ -128,7 +120,6 @@
             <p>Reduce image size without losing quality.</p>
             <a href="/tools/img-compress.html">Try Now</a>
         </div>
-    </div>
         <div class="tool-card">
             <img src="pdf-to-word.jpg" alt="PDF to Word">
             <h3>PDF to Word</h3>
@@ -148,12 +139,12 @@
             <a href="#">Merge</a>
         </div>
     </div>
-<!-- AdSense Top Ad -->
+    <!-- AdSense Bottom Ad -->
     <div class="adsense-ad" style="text-align: center; margin: 20px 0;">
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="pub-2598903974952281"
-             data-ad-slot="TOP_AD_SLOT"
+             data-ad-slot="BOTTOM_AD_SLOT"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
